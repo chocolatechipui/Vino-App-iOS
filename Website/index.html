@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <meta name="apple-mobile-web-app-title" content="Vino">
+
+    <link rel="apple-touch-icon" href="icons/Icon-60@2x.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="icons/Icon-60@3x.png" sizes="180x180">
+    <link rel="apple-touch-icon" href="icons/Icon-76.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="icons/Icon-76@2x.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="icons/Icon-ipad.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="icons/Icon-ipad@2.png" sizes="144x144">
+    <link rel="apple-touch-icon" href="icons/Icon-Small-40.png" sizes="40x40">
+    <link rel="apple-touch-icon" href="icons/Icon-Small-40@2x.png" sizes="80x80">
+    <link rel="apple-touch-icon" href="icons/Icon-Small-40@3x.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="icons/Icon.png" sizes="57x57">
+
+    <!-- iPhone 4 - 4S -->
+    <link rel="apple-touch-startup-image" href="icons/Default@2x~iphone.png" media="(device-width: 320px) and (device-height: 480px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+
+    <!-- iPhone 5 - 5S -->
+    <link rel="apple-touch-startup-image" href="icons/Default-568h@2x~iphone.png" media="(device-width: 320px) and (device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+
+    <!-- iPhone 6 -->
+    <link rel="apple-touch-startup-image" href="icons/Default-667h@2x~iphone.png" media="(device-width: 375px) and (device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+
+    <!-- iPhone 6 Plus -->
+    <link rel="apple-touch-startup-image" href="icons/Default-736h@3x~iphone.png" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)">
+
+    <!-- iPhone 6 Plus (down sampled) -->
+    <link rel="apple-touch-startup-image" href="icons/Default-736h@2x~iphone.png" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+
+
+    <title>Vino</title>
+    <link rel="stylesheet" href="./chui/chui-ios-3.8.0.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type='text/javascript' src='./js/jquery-2.1.1.min.js'></script>
+    <script type='text/javascript' src='./chui/chui-3.8.0.js'></script>
+    <script type='text/javascript' src='./data/bestWines.js'></script>
+    <script type='text/javascript' src='./data/californiaWines.js'></script>
+    <script type='text/javascript' src='./js/app.js'></script>
+  </head>
+  <body>
+    <nav class='current' id='california-wines-header'>
+      <h1 id='mainTitle'>California Wines</h1>
+    </nav>   
+    <article id='main' class='current'>
+      <section>
+        <h2 class='wrap'>Rich Reds</h2>
+        <div class="horizontal-scroll-panel">
+          <!-- Template for select red wines -->
+          <ul id='picksRed'></ul>
+        </div>
+        <h2 class='wrap'>Bright Whites</h2>
+        <div class="horizontal-scroll-panel">
+          <!-- Template for select white wines -->
+          <ul id='picksWhite'></ul>
+        </div>
+      </section>
+    </article>
+    <div class="toolbar current">
+      <button id='getInfo' class='icon'></button>
+      <button id='search' class='icon align-flush'></button>
+    </div>
+    <nav class="next" id='detailNavbar'>
+      <button class="back">Wines</button>
+      <!-- selected wine type: will be updated by Mediator -->
+      <h1>{{wine.type}}</h1>
+      <button id='viewWinery' class='align-flush'>Visit</button>
+    </nav>
+    <article class="next" id='selectedWine'>
+      <section>
+        <div class="hero"></div>
+        <!-- selected wine varietal: will be updated by Mediator -->
+        <h2>{{wine.varietal}}</h2>
+        <!--  template for selected wine -->
+        <ul class="list"></ul>
+      </section>
+    </article>
+    <nav class="next" id='wineSearchResultsNav'>
+      <button class="back">Back</button>
+      <h1>Selected Wines</h1>
+    </nav>
+    <article id="wineList" class="next">
+      <section>
+        <!-- Template for search parameters -->
+        <div id='searchParameters' class='horizontal'></div>
+        <h2>Results</h2>
+        <!-- Template for search results -->
+        <ul class="list" id='filteredWines'></ul>
+      </section>
+    </article>
+    <nav class="next">
+      <button class="back">Back</button>
+      <h1>No Match</h1>
+    </nav>
+    <article class="next" id="noMatch">
+      <section>
+        <!-- Template for search parameters -->
+        <div id='searchParameters-no-match'class='horizontal'></div>
+        <ul class="list">
+          <li>
+            <h3>No match was found.</h3>
+            <h4>Please go back and refine your choices.</h4>
+          </li>
+        </ul>
+      </section>
+    </article>
+    <!-- script templates -->
+    <script type='text/x-template' id='topPicksTemplate'>
+      <li data-id='[[=wine.id]]'>
+        <div>
+          <h3>[[= wine.name ]]</h3>
+          <h4>[[= wine.winery ]]</h4>
+          <p>[[= wine.year ]]</p>
+        </div>
+      </li>
+    </script>
+    <script type='text/x-template' id='selectedWineTemplate'>
+      <li class='comp'>
+        <div>
+          <h3>[[= wine.name ]]</h3>
+          <h4>Body: [[= wine.body ]]</h4>
+          <h4>[[= wine.winery ]]</h4>
+          <p>[[= wine.description ]]</p>
+        </div>
+        <aside>
+          <span class="counter">[[=wine.price]]</span>
+        </aside>
+      </li>
+    </script>
+    <script type='text/x-template' id="searchResultsTemplate" >
+      <li class="comp" data-id='[[= wine.id ]]'>
+        <aside></aside>
+        <div>
+          <h3>[[= wine.name ]]</h3>
+          <h4>[[= wine.varietal ]]</h4>
+        </div>
+        <aside>
+          <span class="nav"></span>
+        </aside>
+      </li>
+    </script>
+    <script type='text/x-template' id="searchParameteresTemplate">
+      <span class='parameters type'>{{type}}</span>
+      <span class='parameters body'>{{body}}</span>
+      <span class='parameters price'>${{price}}</span>
+    </script>
+    <script type='text/x-template' id="purchaseSheetTemplate">
+      <div id='progressPanel'>
+        <p>
+          <progress max='500' value='0'></progress>
+          <h2>Processing...</h2>
+        </div>
+        <div id='confirmationPanel'>
+          <h2>Purchase Complete</h2>
+          <p>Thanks for buying. Oh wait, this is just a stub. You'll need to use whatever e-commerce solution suits your purpose.
+        </p>
+        <button class='action'>OK</button>
+      </div>
+    </script>
+    <script type='text/x-template' id="aboutSheetTemplate">
+      <nav>
+        <button class="action">Close</button>
+      </nav>
+    </script>
+    <script type='text/x-template' id="searchNavBarTemplate">
+      <nav id='searchNav'>
+        <button id='cancelSearch'>Cancel</button>
+        <h1 style='width: 120px;'>Find Wine</h1>
+        <button id='startSearch'>Search</button>
+      </nav>
+    </script>
+    <script type='text/x-template' id="searchiPhone6TypeTemplate">
+      <h2>Type</h2>
+      <ul id='wineType' class='list'>
+        <li><h3>Red</h3></li>
+        <li><h3>White</h3></li>
+        <li><h3>Sparkling</h3></li>
+        <li><h3>Dessert</h3></li>
+      </ul>
+    </script>
+    <script type='text/x-template' id="searchiPhone6PlusBody">
+      <h2>Body</h2>
+      <ul id='wineBody' class='list'>
+        <li><h3>Light</h3></li>
+        <li><h3>Medium</h3></li>
+        <li><h3>Heavy</h3></li>
+      </ul>
+    </script>
+    <script type='text/x-template' id="searchiPhone6Body">
+      <h2>Body</h2>
+      <ul class='list'>
+        <li>
+          <div id='varietySegmentedPanel' class='horizontal centered'>
+            <div class='segmented' id='varietySegmented'>
+              <button role='radio' '=''>Light</button>
+              <button role='radio' '='' aria-checked='true' class='selected'>Medium</button>
+              <button role='radio' '=''>Heavy</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </script>
+    <script type='text/x-template' id="priceSelector">
+      <h2 id='choosePriceLabel'>Price: <label id='priceRangeOutput'>$<span data-model='selectedWinePrice'></span></label></h2>
+      <ul class='list'>
+        <li>
+          <div id='pricePanel' class='horizontal centered'>
+            <input data-controller='selectedWinePrice' type='range' name='priceRangeInput' id='priceRangeInput' step='20' value='20' min='20' max='100'>
+          </div>
+        </li>
+      </ul>
+    </script>
+    <script type='text/x-template' id="searchPanel">
+      <h2>Type</h2>
+      <ul class='list'>
+        <li>
+          <div id='typeSegmentedPanel' class='horizontal centered'><div class='segmented' id='typeSegmented'><button role='radio' '='' aria-checked='true' class='selected'>Red</button><button role='radio' '=''>White</button><button role='radio' '=''>Sparkling</button><button role='radio' '=''>Dessert</button></div></div>
+        </li>
+      </ul>
+      
+      <h2>Body</h2>
+      <ul class='list'>
+        <li>
+          <div id='varietySegmentedPanel' class='horizontal centered'><div class='segmented' id='varietySegmented'><button role='radio' '=''>Light</button><button role='radio' '='' aria-checked='true' class='selected'>Medium</button><button role='radio' '=''>Heavy</button></div></div>
+        </li>
+      </ul>
+      
+      <h2 id='chosePriceLabel'>Price: <label id='priceRangeOutput'>20.00</label></h2>
+      <ul class='list'>
+        <li>
+          <div id='pricePanel' class='horizontal centered'>
+            <input type='range' name='priceRangeInput' id='priceRangeInput' step='20' value='20' min='20' max='100' style='background-size: -1px 10px;'>
+          </div>
+        </li>
+      </ul>
+    </script>
+    <script type='text/x-template' id="aboutContent">
+      <h2>California Wines</h2>
+      <p>This is a reference app for ChocolateChip-UI to show how to use and customize the layouts and widgets. We\'ve used it to create an app about wines available in northern California.</p>
+      <p>This app was built to run on the Safari desktop browser as well as on iOS 7 - 8 with customized layout support for iPhone 5, 5s, 6, 6 Plus and iPad.</p>
+      <p>The following frameworks were used to make this app:</p>
+      <ul>
+      <li><a target="_blank" href="http://chocolatechp-ui.com">ChocolateChip-UI</a></li>
+      <li><a target="_blank" href="http://jquery.com">jQuery</a></li>
+      <li><a target="_blank" href="http://soundstep.github.io/soma-template/">Soma Templates</a></li>
+      </ul>
+      <h3>Team</h3>
+      <ul>
+      <li>Robert Biggs - Chief Architect</li>
+      <li>Piotr Gajos - UX and Design Direction</li>
+      <li>Josh Rutherford - Graphic Assets</li>
+      <li>Bader Alabdulrazzaq - Apple Maps Integration</li>
+      </ul>
+      <h4>Disclaimer</h4>
+      <p>We do not condone unresponsible alcohol consumption. If you do drink wine, please do so responsibly and keep yourself and those around you safe.</p>
+    </script>
+  </body>
+</html>
