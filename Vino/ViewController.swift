@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  WobbaKitViewExample
+//  Vino Hybrid App
 //
-//  Created by Bader on 12/3/14.
-//  Copyright (c) 2014 WobbaWobbaWobba. All rights reserved.
+//  Created by Robert Biggs on 12/3/14.
+//  Copyright (c) 2014 Sourcebits. All rights reserved.
 //
 
 import UIKit
@@ -21,8 +21,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let html   = NSBundle.mainBundle().pathForResource("index.html", ofType: "", inDirectory: "Website")
-        println(html)
+        // Define location of local HTML file:
+        let html = NSBundle.mainBundle().pathForResource("index.html", ofType: "", inDirectory: "Website")
         let url = NSURL.fileURLWithPath(html!) // The html cannot be nil.
         let request = NSURLRequest(URL: url!) // The URL cannot be nil too.
 

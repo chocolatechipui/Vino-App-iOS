@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  WobbaKitViewExample
+//  Vino Hybrid App
 //
-//  Created by Bader on 12/3/14.
-//  Copyright (c) 2014 WobbaWobbaWobba. All rights reserved.
+//  Created by Robert Biggs on 12/3/14.
+//  Copyright (c) 2014 Sourcebits. All rights reserved.
 //
 
 import UIKit

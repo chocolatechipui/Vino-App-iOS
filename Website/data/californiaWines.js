@@ -9,7 +9,7 @@ var wines = [
     "winery": "Whitehall Lane Winery",
     "region": "Napa",
     "address": "1563 St. Helena Hwy South, St. Helena, CA 94574",
-    "location": "Whitehall+Lane+Winery",
+    "location": "Whitehall+Lane+Winery+California",
     "price": "$28.00",
     "label": {
       "name": "Napa Valley Merlot",
@@ -29,7 +29,7 @@ var wines = [
     "winery": "Whitehall Lane Winery",
     "region": "Napa",
     "address": "1563 St. Helena Hwy South, St. Helena, CA 94574",
-    "location": "Whitehall+Lane+Winery",
+    "location": "Whitehall+Lane+Winery+California",
     "price": "$80.00",
     "label": {
       "name": "Leonardini Vineyard Merlot",
@@ -49,7 +49,7 @@ var wines = [
     "winery": "St. Clement Vineyards",
     "region": "Napa",
     "address": "2867 St. Helena Highway North, St. Helena, CA 94574",
-    "location": "St.+Clement+Vineyards",
+    "location": "St.+Clement+Vineyards+California",
     "price": "$28.00",
     "label": {
       "name": "Merlot Napa Valley",
@@ -68,8 +68,8 @@ var wines = [
     "body": "Medium",
     "winery": "Benziger Family Winery",
     "region": "Sonoma",
-    "address": "1883 London Ranch Rd, Glen Ellen, Ca 95442",
-    "location": "Benziger+Family+Winery",
+    "address": "1883 London Ranch Rd, Glen Ellen, CA 95442",
+    "location": "Benziger+Family+Winery+California",
     "price": "$19.00",
     "label": {
       "name": "Sonoma County Merlot",
@@ -88,8 +88,8 @@ var wines = [
       "body": "Heavy",
       "winery": "Benziger Family Winery",
       "region": "Sonoma",
-      "address": "1883 London Ranch Rd, Glen Ellen, Ca 95442",
-      "location": "Benziger+Family+Winery",
+      "address": "1883 London Ranch Rd, Glen Ellen, CA 95442",
+      "location": "Benziger+Family+Winery+California",
       "price": "$59.00",
     "label": {
       "name": "Signaterra Cabernet Sauvignon",
@@ -108,8 +108,8 @@ var wines = [
     "body": "Heavy",
     "winery": "Benziger Family Winery",
     "region": "Sonoma",
-    "address": "1883 London Ranch Rd, Glen Ellen, Ca 95442",
-    "location": "Benziger+Family+Winery",
+    "address": "1883 London Ranch Rd, Glen Ellen, CA 95442",
+    "location": "Benziger+Family+Winery+California",
     "price": "$20.00",
     "label": {
       "name": "Sonoma County Cabernet Sauvignon",
@@ -128,8 +128,8 @@ var wines = [
     "body": "Medium",
     "winery": "Benziger Family Winery",
     "region": "Sonoma",
-    "address": "1883 London Ranch Rd, Glen Ellen, Ca 95442",
-    "location": "Benziger+Family+Winery",
+    "address": "1883 London Ranch Rd, Glen Ellen, CA 95442",
+    "location": "Benziger+Family+Winery+California",
     "price": "$46.00",
     "label": {
       "name": "Sonoma Valley Zinfandel",
@@ -148,8 +148,8 @@ var wines = [
     "body": "Light",
     "winery": "Benziger Family Winery",
     "region": "Sonoma",
-    "address": "1883 London Ranch Rd, Glen Ellen, Ca 95442",
-    "location": "Benziger+Family+Winery",
+    "address": "1883 London Ranch Rd, Glen Ellen, CA 95442",
+    "location": "Benziger+Family+Winery+California",
     "price": "$29.00",
     "label": {
       "name": "Sonoma Coast Pinot Noir",
@@ -168,8 +168,8 @@ var wines = [
     "body": "Light",
     "winery": "Benziger Family Winery",
     "region": "Sonoma",
-    "address": "1883 London Ranch Rd, Glen Ellen, Ca 95442",
-    "location": "Benziger+Family+Winery",
+    "address": "1883 London Ranch Rd, Glen Ellen, CA 95442",
+    "location": "Benziger+Family+Winery+California",
     "price": "$45.00",
     "label": {
       "name": "Signaterra Pinot Noir",
@@ -188,8 +188,8 @@ var wines = [
     "body": "Medium",
     "winery": "Benziger Family Winery",
     "region": "Sonoma",
-    "address": "1883 London Ranch Rd, Glen Ellen, Ca 95442",
-    "location": "Benziger+Family+Winery",
+    "address": "1883 London Ranch Rd, Glen Ellen, CA 95442",
+    "location": "Benziger+Family+Winery+California",
     "price": "$32.00",
     "label": {
       "name": "Signaterra Chardonnay",
@@ -208,8 +208,8 @@ var wines = [
     "body": "Light",
     "winery": "Benziger Family Winery",
     "region": "Sonoma",
-    "address": "1883 London Ranch Rd, Glen Ellen, Ca 95442",
-    "location": "Benziger+Family+Winery",
+    "address": "1883 London Ranch Rd, Glen Ellen, CA 95442",
+    "location": "Benziger+Family+Winery+California",
     "price": "$26.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -229,7 +229,7 @@ var wines = [
     "winery": "Valley of the Moon Winery & Vineyards",
     "region": "Sonoma",
     "address": "777 Madrone Road, Glen Ellen, CA 95442",
-    "location": "Valley+of+the+Moon+Winery+&+Vineyards",
+    "location": "Valley+of+the+Moon+Winery+&+Vineyards+California",
     "price": "$23.00",
     "label": {
       "name": "VOM Pinot Blanc",
@@ -249,7 +249,7 @@ var wines = [
     "winery": "Valley of the Moon Winery & Vineyards",
     "region": "Sonoma",
     "address": "777 Madrone Road, Glen Ellen, CA 95442",
-    "location": "Valley+of+the+Moon+Winery+&+Vineyards",
+    "location": "Valley+of+the+Moon+Winery+&+Vineyards+California",
     "price": "$25.00",
     "label": {
       "name": "VOM Chardonnay",
@@ -269,7 +269,7 @@ var wines = [
     "winery": "Valley of the Moon Winery & Vineyards",
     "region": "Sonoma",
     "address": "777 Madrone Road, Glen Ellen, CA 95442",
-    "location": "Valley+of+the+Moon+Winery+&+Vineyards",
+    "location": "Valley+of+the+Moon+Winery+&+Vineyards+California",
     "price": "$45.00",
     "label": {
       "name": "VOM Sparkling Brut",
@@ -289,7 +289,7 @@ var wines = [
     "winery": "Schug Carneros Estate Winery",
     "region": "Sonoma",
     "address": "602 Bonneau Road, Sonoma, CA 95476",
-    "location": "Schug+Carneros+Estate+Winery",
+    "location": "Schug+Carneros+Estate+Winery+California",
     "price": "$30.00",
     "label": {
       "name": "Pinot Noir",
@@ -309,7 +309,7 @@ var wines = [
     "winery": "Schug Carneros Estate Winery",
     "region": "Sonoma",
     "address": "602 Bonneau Road, Sonoma, CA 95476",
-    "location": "Schug+Carneros+Estate+Winery",
+    "location": "Schug+Carneros+Estate+Winery+California",
     "price": "$30.00",
     "label": {
       "name": "Chardonnay",
@@ -329,7 +329,7 @@ var wines = [
     "winery": "Schug Carneros Estate Winery",
     "region": "Sonoma",
     "address": "602 Bonneau Road, Sonoma, CA 95476",
-    "location": "Schug+Carneros+Estate+Winery",
+    "location": "Schug+Carneros+Estate+Winery+California",
     "price": "$30.00",
     "label": {
       "name": "Merlot",
@@ -349,7 +349,7 @@ var wines = [
     "winery": "Schug Carneros Estate Winery",
     "region": "Sonoma",
     "address": "602 Bonneau Road, Sonoma, CA 95476",
-    "location": "Schug+Carneros+Estate+Winery",
+    "location": "Schug+Carneros+Estate+Winery+California",
     "price": "$30.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -369,7 +369,7 @@ var wines = [
     "winery": "Schug Carneros Estate Winery",
     "region": "Sonoma",
     "address": "602 Bonneau Road, Sonoma, CA 95476",
-    "location": "Schug+Carneros+Estate+Winery",
+    "location": "Schug+Carneros+Estate+Winery+California",
     "price": "$30.00",
     "label": {
       "name": "Late Harvest Riesling",
@@ -389,7 +389,7 @@ var wines = [
     "winery": "Mayo Family Winery",
     "region": "Sonoma",
     "address": "13101 Arnold Drive, Glen Ellen, CA 95442",
-    "location": "Mayo+Family+Winery",
+    "location": "Mayo+Family+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -409,7 +409,7 @@ var wines = [
     "winery": "Mayo Family Winery",
     "region": "Sonoma",
     "address": "13101 Arnold Drive, Glen Ellen, CA 95442",
-    "location": "Mayo+Family+Winery",
+    "location": "Mayo+Family+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Merlot",
@@ -429,7 +429,7 @@ var wines = [
     "winery": "Mayo Family Winery",
     "region": "Sonoma",
     "address": "13101 Arnold Drive, Glen Ellen, CA 95442",
-    "location": "Mayo+Family+Winery",
+    "location": "Mayo+Family+Winery+California",
     "price": "$50.00",
     "label": {
       "name": "Pinot Noir",
@@ -449,7 +449,7 @@ var wines = [
     "winery": "Mayo Family Winery",
     "region": "Sonoma",
     "address": "13101 Arnold Drive, Glen Ellen, CA 95442",
-    "location": "Mayo+Family+Winery",
+    "location": "Mayo+Family+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Pinot Noir",
@@ -469,7 +469,7 @@ var wines = [
     "winery": "Arrowood Vineyards &amp; Winery",
     "region": "Sonoma",
     "address": "14347 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "Arrowood+Vineyards+&+Winery",
+    "location": "Arrowood+Vineyards+&+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Riesling",
@@ -489,7 +489,7 @@ var wines = [
     "winery": "Arrowood Vineyards &amp; Winery",
     "region": "Sonoma",
     "address": "14347 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "Arrowood+Vineyards+&+Winery",
+    "location": "Arrowood+Vineyards+&+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Riesling",
@@ -509,7 +509,7 @@ var wines = [
     "winery": "Arrowood Vineyards &amp; Winery",
     "region": "Sonoma",
     "address": "14347 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "Arrowood+Vineyards+&+Winery",
+    "location": "Arrowood+Vineyards+&+Winery+California",
     "price": "$42.00",
     "label": {
       "name": "Merlot",
@@ -529,7 +529,7 @@ var wines = [
     "winery": "Arrowood Vineyards &amp; Winery",
     "region": "Sonoma",
     "address": "14347 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "Arrowood+Vineyards+&+Winery",
+    "location": "Arrowood+Vineyards+&+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Cabernet Sauvignon, Sonoma Valley",
@@ -549,7 +549,7 @@ var wines = [
     "winery": "Arrowood Vineyards &amp; Winery",
     "region": "Sonoma",
     "address": "14347 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "Arrowood+Vineyards+&+Winery",
+    "location": "Arrowood+Vineyards+&+Winery+California",
     "price": "$80.00",
     "label": {
       "name": "Cabernet Sauvignon, Monte Rosso",
@@ -569,7 +569,7 @@ var wines = [
     "winery": "Imagery Estate Winery",
     "region": "Sonoma",
     "address": "14335 Hwy 12 Glen Ellen, CA 95442",
-    "location": "Imagery+Estate+Winery",
+    "location": "Imagery+Estate+Winery+California",
     "price": "$65.00",
     "label": {
       "name": "Merlot",
@@ -589,7 +589,7 @@ var wines = [
     "winery": "Imagery Estate Winery",
     "region": "Sonoma",
     "address": "14335 Hwy 12 Glen Ellen, CA 95442",
-    "location": "Imagery+Estate+Winery",
+    "location": "Imagery+Estate+Winery+California",
     "price": "$39.00",
     "label": {
       "name": "Syrah",
@@ -609,7 +609,7 @@ var wines = [
     "winery": "Imagery Estate Winery",
     "region": "Sonoma",
     "address": "14335 Hwy 12 Glen Ellen, CA 95442",
-    "location": "Imagery+Estate+Winery",
+    "location": "Imagery+Estate+Winery+California",
     "price": "$45.00",
     "label": {
       "name": "Petite Sirah",
@@ -629,7 +629,7 @@ var wines = [
     "winery": "Imagery Estate Winery",
     "region": "Sonoma",
     "address": "14335 Hwy 12 Glen Ellen, CA 95442",
-    "location": "Imagery+Estate+Winery",
+    "location": "Imagery+Estate+Winery+California",
     "price": "$24.00",
     "label": {
       "name": "Riesling",
@@ -649,7 +649,7 @@ var wines = [
     "winery": "Kunde Family Estate",
     "region": "Sonoma",
     "address": "9825 Sonoma Hwy, Kenwood, CA 95452",
-    "location": "Kunde+Family+Estate",
+    "location": "Kunde+Family+Estate+California",
     "price": "$35.00",
     "label": {
       "name": "Dessert Cuvee",
@@ -669,7 +669,7 @@ var wines = [
     "winery": "Kunde Family Estate",
     "region": "Sonoma",
     "address": "9825 Sonoma Hwy, Kenwood, CA 95452",
-    "location": "Kunde+Family+Estate",
+    "location": "Kunde+Family+Estate+California",
     "price": "$50.00",
     "label": {
       "name": "Cabernet Sauvignon, rummond Vineyard",
@@ -689,7 +689,7 @@ var wines = [
     "winery": "Kunde Family Estate",
     "region": "Sonoma",
     "address": "9825 Sonoma Hwy, Kenwood, CA 95452",
-    "location": "Kunde+Family+Estate",
+    "location": "Kunde+Family+Estate+California",
     "price": "$60.00",
     "label": {
       "name": "Cabernet Sauvignon, Sonoma Valley",
@@ -709,7 +709,7 @@ var wines = [
     "winery": "Kunde Family Estate",
     "region": "Sonoma",
     "address": "9825 Sonoma Hwy, Kenwood, CA 95452",
-    "location": "Kunde+Family+Estate",
+    "location": "Kunde+Family+Estate+California",
     "price": "$22.00",
     "label": {
       "name": "Zinfandel",
@@ -729,7 +729,7 @@ var wines = [
     "winery": "Kunde Family Estate",
     "region": "Sonoma",
     "address": "9825 Sonoma Hwy, Kenwood, CA 95452",
-    "location": "Kunde+Family+Estate",
+    "location": "Kunde+Family+Estate+California",
     "price": "$22.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -749,7 +749,7 @@ var wines = [
     "winery": "Kunde Family Estate",
     "region": "Sonoma",
     "address": "9825 Sonoma Hwy, Kenwood, CA 95452",
-    "location": "Kunde+Family+Estate",
+    "location": "Kunde+Family+Estate+California",
     "price": "$35.00",
     "label": {
       "name": "",
@@ -769,7 +769,7 @@ var wines = [
     "winery": "Kunde Family Estate",
     "region": "Sonoma",
     "address": "9825 Sonoma Hwy, Kenwood, CA 95452",
-    "location": "Kunde+Family+Estate",
+    "location": "Kunde+Family+Estate+California",
     "price": "$35.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -789,7 +789,7 @@ var wines = [
     "winery": "Kenwood Vineyards",
     "region": "Sonoma",
     "address": "592 Sonoma Highway, Kenwood, CA 95452",
-    "location": "Kenwood+Vineyards",
+    "location": "Kenwood+Vineyards+California",
     "price": "$16.00",
     "label": {
       "name": "Pinot Grigio",
@@ -809,7 +809,7 @@ var wines = [
     "winery": "Kenwood Vineyards",
     "region": "Sonoma",
     "address": "592 Sonoma Highway, Kenwood, CA 95452",
-    "location": "Kenwood+Vineyards",
+    "location": "Kenwood+Vineyards+California",
     "price": "$14.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -829,7 +829,7 @@ var wines = [
     "winery": "Kenwood Vineyards",
     "region": "Sonoma",
     "address": "592 Sonoma Highway, Kenwood, CA 95452",
-    "location": "Kenwood+Vineyards",
+    "location": "Kenwood+Vineyards+California",
     "price": "$17.00",
     "label": {
       "name": "Zinfandel",
@@ -849,7 +849,7 @@ var wines = [
     "winery": "Kenwood Vineyards",
     "region": "Sonoma",
     "address": "592 Sonoma Highway, Kenwood, CA 95452",
-    "location": "Kenwood+Vineyards",
+    "location": "Kenwood+Vineyards+California",
     "price": "$20.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -869,7 +869,7 @@ var wines = [
     "winery": "Ledson Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "7335 Sonoma Hwy (Hwy 12), Kenwood, CA 95409",
-    "location": "Ledson+Winery+&+Vineyards",
+    "location": "Ledson+Winery+&+Vineyards+California",
     "price": "$70.00",
     "label": {
       "name": "Pinot Noir, Reserve",
@@ -889,7 +889,7 @@ var wines = [
     "winery": "Ledson Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "7335 Sonoma Hwy (Hwy 12), Kenwood, CA 95409",
-    "location": "Ledson+Winery+&+Vineyards",
+    "location": "Ledson+Winery+&+Vineyards+California",
     "price": "$64.00",
     "label": {
       "name": "Pinot Noir, Three Vineyards",
@@ -909,7 +909,7 @@ var wines = [
     "winery": "Ledson Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "7335 Sonoma Hwy (Hwy 12), Kenwood, CA 95409",
-    "location": "Ledson+Winery+&+Vineyards",
+    "location": "Ledson+Winery+&+Vineyards+California",
     "price": "$50.00",
     "label": {
       "name": "Knights Valley Merlot Reserve",
@@ -929,7 +929,7 @@ var wines = [
     "winery": "Ledson Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "7335 Sonoma Hwy (Hwy 12), Kenwood, CA 95409",
-    "location": "Ledson+Winery+&+Vineyards",
+    "location": "Ledson+Winery+&+Vineyards+California",
     "price": "$44.00",
     "label": {
       "name": "Old Vine Zinfandel",
@@ -949,7 +949,7 @@ var wines = [
     "winery": "Ledson Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "7335 Sonoma Hwy (Hwy 12), Kenwood, CA 95409",
-    "location": "Ledson+Winery+&+Vineyards",
+    "location": "Ledson+Winery+&+Vineyards+California",
     "price": "$60.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -969,7 +969,7 @@ var wines = [
     "winery": "Ledson Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "7335 Sonoma Hwy (Hwy 12), Kenwood, CA 95409",
-    "location": "Ledson+Winery+&+Vineyards",
+    "location": "Ledson+Winery+&+Vineyards+California",
     "price": "$38.00",
     "label": {
       "name": "Chardonnay",
@@ -981,16 +981,16 @@ var wines = [
   },
   {
     "id": "050",
-    "name": "2012 Carneros Chardonnay",
-    "type": "White",
-    "varietal": "Chardonnay",
-    "description": "This Chardonnay has terrific fruit power without being too heavy. Interesting layers of fruit reveal themselves as it opens up in the glass and becomes more complex with a little air. With a lifted nose of apricot and fresh spring flowers, it's instantly recognizable as a Carneros Chardonnay. The apricot continues to the palate where it's quickly joined by fresh mandarin and tropical fruits. Lingering mandarin and tropical fruit illustrate the finish. It’s a quality Chardonnay that will suit a cheese plate, seafood and pasta alike.",
+     "name": "2012 Russian River Pinot Noir Reserve",
+     "type": "Red",
+     "varietal": "Pinot Noir",
+     "description": "Pinot Noir may be the toughest grape to grow, but the effort is well worth the investment. It is a fickle grape that demands optimum growing conditions, demanding warm days consistently supported by cool evenings. Pinot Noir is a lighter colored and flavored red wine. Its flavors are reminiscent of sweet red berries, plums, tomatoes, cherries and at times a notable earthy or wood-like flavor, depending on specific growing conditions. ",
     "body": "Medium",
     "winery": "Ledson Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "7335 Sonoma Hwy (Hwy 12), Kenwood, CA 95409",
-    "location": "Ledson+Winery+&+Vineyards",
-    "price": "$38.00",
+    "location": "Ledson+Winery+&+Vineyards+California",
+    "price": "$66.00",
     "label": {
       "name": "Carneros Chardonnay",
       "winery": "Ledson",
@@ -1009,7 +1009,7 @@ var wines = [
     "winery": "Ledson Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "7335 Sonoma Hwy (Hwy 12), Kenwood, CA 95409",
-    "location": "Ledson+Winery+&+Vineyards",
+    "location": "Ledson+Winery+&+Vineyards+California",
     "price": "$18.00",
     "label": {
       "name": "Riesling Demi-Sec",
@@ -1029,7 +1029,7 @@ var wines = [
     "winery": "St. Francis Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "500 Pythian Road, Santa Rosa, CA 95409",
-    "location": "St.+Francis+Winery+&+Vineyards",
+    "location": "St.+Francis+Winery+&+Vineyards+California",
     "price": "$28.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -1049,7 +1049,7 @@ var wines = [
     "winery": "St. Francis Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "500 Pythian Road, Santa Rosa, CA 95409",
-    "location": "St.+Francis+Winery+&+Vineyards",
+    "location": "St.+Francis+Winery+&+Vineyards+California",
     "price": "$22.00",
     "label": {
       "name": "Merlot",
@@ -1069,7 +1069,7 @@ var wines = [
     "winery": "St. Francis Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "500 Pythian Road, Santa Rosa, CA 95409",
-    "location": "St.+Francis+Winery+&+Vineyards",
+    "location": "St.+Francis+Winery+&+Vineyards+California",
     "price": "$19.95",
     "label": {
       "name": "Sauvignon Blanc",
@@ -1089,7 +1089,7 @@ var wines = [
     "winery": "St. Francis Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "500 Pythian Road, Santa Rosa, CA 95409",
-    "location": "St.+Francis+Winery+&+Vineyards",
+    "location": "St.+Francis+Winery+&+Vineyards+California",
     "price": "$38.00",
     "label": {
       "name": "Zinfandel",
@@ -1109,7 +1109,7 @@ var wines = [
     "winery": "St. Francis Winery &amp; Vineyards",
     "region": "Sonoma",
     "address": "500 Pythian Road, Santa Rosa, CA 95409",
-    "location": "St.+Francis+Winery+&+Vineyards",
+    "location": "St.+Francis+Winery+&+Vineyards+California",
     "price": "$40.00",
     "label": {
       "name": "Sonoma Cuvee",
@@ -1129,7 +1129,7 @@ var wines = [
     "winery": "B.R. Cohn Winery &amp; Olive Oil Company",
     "region": "Sonoma",
     "address": "5000 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company",
+    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company+California",
     "price": "$44.80",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -1149,7 +1149,7 @@ var wines = [
     "winery": "B.R. Cohn Winery &amp; Olive Oil Company",
     "region": "Sonoma",
     "address": "5000 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company",
+    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company+California",
     "price": "$45.00",
     "label": {
       "name": "Zinfandel",
@@ -1169,7 +1169,7 @@ var wines = [
     "winery": "B.R. Cohn Winery &amp; Olive Oil Company",
     "region": "Sonoma",
     "address": "5000 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company",
+    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company+California",
     "price": "$28.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -1189,7 +1189,7 @@ var wines = [
     "winery": "B.R. Cohn Winery &amp; Olive Oil Company",
     "region": "Sonoma",
     "address": "5000 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company",
+    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company+California",
     "price": "$28.00",
     "label": {
       "name": "Potter Valley Riesling",
@@ -1209,7 +1209,7 @@ var wines = [
     "winery": "B.R. Cohn Winery &amp; Olive Oil Company",
     "region": "Sonoma",
     "address": "5000 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company",
+    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company+California",
     "price": "$36.00",
     "label": {
       "name": "Sonoma Valley Merlot",
@@ -1229,7 +1229,7 @@ var wines = [
     "winery": "B.R. Cohn Winery &amp; Olive Oil Company",
     "region": "Sonoma",
     "address": "5000 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company",
+    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company+California",
     "price": "$50.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -1249,7 +1249,7 @@ var wines = [
     "winery": "B.R. Cohn Winery &amp; Olive Oil Company",
     "region": "Sonoma",
     "address": "5000 Sonoma Hwy, Glen Ellen, CA 95442",
-    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company",
+    "location": "B.R.+Cohn+Winery+&+Olive+Oil+Company+California",
     "price": "$35.00",
     "label": {
       "name": "Sangiacomo Chardonnay",
@@ -1269,7 +1269,7 @@ var wines = [
     "winery": "Christopher Creek Winery",
     "region": "Sonoma",
     "address": "641 Limerick Lane, Healdsburg, CA. 95448",
-    "location": "Christopher+Creek+Winery",
+    "location": "Christopher+Creek+Winery+California",
     "price": "$49.00",
     "label": {
       "name": "Petite Sirah Port",
@@ -1289,7 +1289,7 @@ var wines = [
     "winery": "Christopher Creek Winery",
     "region": "Sonoma",
     "address": "641 Limerick Lane, Healdsburg, CA. 95448",
-    "location": "Christopher+Creek+Winery",
+    "location": "Christopher+Creek+Winery+California",
     "price": "$44.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -1309,7 +1309,7 @@ var wines = [
     "winery": "Christopher Creek Winery",
     "region": "Sonoma",
     "address": "641 Limerick Lane, Healdsburg, CA. 95448",
-    "location": "Christopher+Creek+Winery",
+    "location": "Christopher+Creek+Winery+California",
     "price": "$34.00",
     "label": {
       "name": "Zinfandel",
@@ -1329,7 +1329,7 @@ var wines = [
     "winery": "Clos Du Bois Winery",
     "region": "Sonoma",
     "address": "19410 Geyserville Ave, Geyserville, CA 95441",
-    "location": "Clos+Du+Bois+Winery",
+    "location": "Clos+Du+Bois+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Sonoma Reserve Petite Sirah",
@@ -1349,7 +1349,7 @@ var wines = [
     "winery": "Clos Du Bois Winery",
     "region": "Sonoma",
     "address": "19410 Geyserville Ave, Geyserville, CA 95441",
-    "location": "Clos+Du+Bois+Winery",
+    "location": "Clos+Du+Bois+Winery+California",
     "price": "$20.00",
     "label": {
       "name": "Pinot Noir California",
@@ -1369,7 +1369,7 @@ var wines = [
     "winery": "Clos Du Bois Winery",
     "region": "Sonoma",
     "address": "19410 Geyserville Ave, Geyserville, CA 95441",
-    "location": "Clos+Du+Bois+Winery",
+    "location": "Clos+Du+Bois+Winery+California",
     "price": "$20.00",
     "label": {
       "name": "Briarcrest Cabernet Sauvignon",
@@ -1389,7 +1389,7 @@ var wines = [
     "winery": "Clos Du Bois Winery",
     "region": "Sonoma",
     "address": "19410 Geyserville Ave, Geyserville, CA 95441",
-    "location": "Clos+Du+Bois+Winery",
+    "location": "Clos+Du+Bois+Winery+California",
     "price": "$18.00",
     "label": {
       "name": "Merlot North Coast",
@@ -1409,7 +1409,7 @@ var wines = [
     "winery": "Hawkes",
     "region": "Sonoma",
     "address": "6738 Highway 128 Healdsburg, CA 94448",
-    "location": "Hawkes+Vineyards+and+Winery",
+    "location": "Hawkes+Vineyards+and+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Alexander Valley Merlot",
@@ -1429,7 +1429,7 @@ var wines = [
     "winery": "Francis Coppola Winery",
     "region": "Sonoma",
     "address": "300 Via Archimedes, Geyserville, CA 95441",
-    "location": "Francis+Coppola+Winery",
+    "location": "Francis+Coppola+Winery+California",
     "price": "$29.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -1449,7 +1449,7 @@ var wines = [
     "winery": "Francis Coppola Winery",
     "region": "Sonoma",
     "address": "300 Via Archimedes, Geyserville, CA 95441",
-    "location": "Francis+Coppola+Winery",
+    "location": "Francis+Coppola+Winery+California",
     "price": "$32.00",
     "label": {
       "name": "Chardonay",
@@ -1469,7 +1469,7 @@ var wines = [
     "winery": "Francis Coppola Winery",
     "region": "Sonoma",
     "address": "300 Via Archimedes, Geyserville, CA 95441",
-    "location": "Francis+Coppola+Winery",
+    "location": "Francis+Coppola+Winery+California",
     "price": "$27.00",
     "label": {
       "name": "Pinot Noir",
@@ -1489,7 +1489,7 @@ var wines = [
     "winery": "Francis Coppola Winery",
     "region": "Sonoma",
     "address": "300 Via Archimedes, Geyserville, CA 95441",
-    "location": "Francis+Coppola+Winery",
+    "location": "Francis+Coppola+Winery+California",
     "price": "$36.00",
     "label": {
       "name": "Dry Creek Syrah",
@@ -1509,7 +1509,7 @@ var wines = [
     "winery": "Francis Coppola Winery",
     "region": "Sonoma",
     "address": "300 Via Archimedes, Geyserville, CA 95441",
-    "location": "Francis+Coppola+Winery",
+    "location": "Francis+Coppola+Winery+California",
     "price": "$39.00",
     "label": {
       "name": "Dry Petite Sirah",
@@ -1529,7 +1529,7 @@ var wines = [
     "winery": "Sonoma Valley Portworks",
     "region": "Sonoma",
     "address": "613 2nd Street, Petaluma CA 94952",
-    "location": "Sonoma+Valley+Portworks",
+    "location": "Sonoma+Valley+Portworks+California",
     "price": "$20.00",
     "label": {
       "name": "Deco Port",
@@ -1549,7 +1549,7 @@ var wines = [
     "winery": "Amizetta Winery",
     "region": "Napa",
     "address": "1099 Greenfield Road, St. Helena, CA 94574",
-    "location": "Amizetta+Winery",
+    "location": "Amizetta+Winery+California",
     "price": "$55.00",
     "label": {
       "name": "Estate Cabernet Sauvignon",
@@ -1569,7 +1569,7 @@ var wines = [
     "winery": "Amizetta Winery",
     "region": "Napa",
     "address": "1099 Greenfield Road, St. Helena, CA 94574",
-    "location": "Amizetta+Winery",
+    "location": "Amizetta+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Merlot 100%",
@@ -1589,7 +1589,7 @@ var wines = [
     "winery": "Amizetta Winery",
     "region": "Napa",
     "address": "1099 Greenfield Road, St. Helena, CA 94574",
-    "location": "Amizetta+Winery",
+    "location": "Amizetta+Winery+California",
     "price": "$20.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -1609,7 +1609,7 @@ var wines = [
     "winery": "Alpha Omega",
     "region": "Napa",
     "address": "1155 Mee Lane at Hwy 29, Rutherford, CA 94573",
-    "location": "Alpha+Omega",
+    "location": "Alpha+Omega+California",
     "price": "$92.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -1629,7 +1629,7 @@ var wines = [
     "winery": "Alpha Omega",
     "region": "Napa",
     "address": "1155 Mee Lane at Hwy 29, Rutherford, CA 94573",
-    "location": "Alpha+Omega",
+    "location": "Alpha+Omega+California",
     "price": "$38.00",
     "label": {
       "name": "Napa Valley Sauvignon Blanc",
@@ -1649,7 +1649,7 @@ var wines = [
     "winery": "Benessere",
     "region": "Napa",
     "address": "1010 Big Tree Road, St. Helena, CA 94574",
-    "location": "Benessere+Vineyards",
+    "location": "Benessere+Vineyards+California",
     "price": "$22.00",
     "label": {
       "name": "Pinot Grigio",
@@ -1669,7 +1669,7 @@ var wines = [
     "winery": "Benessere",
     "region": "Napa",
     "address": "1010 Big Tree Road, St. Helena, CA 94574",
-    "location": "Benessere+Vineyards",
+    "location": "Benessere+Vineyards+California",
     "price": "$32.00",
     "label": {
       "name": "Sangiovese",
@@ -1689,7 +1689,7 @@ var wines = [
     "winery": "Benessere",
     "region": "Napa",
     "address": "1010 Big Tree Road, St. Helena, CA 94574",
-    "location": "Benessere+Vineyards",
+    "location": "Benessere+Vineyards+California",
     "price": "$32.00",
     "label": {
       "name": "Black Glass Zinfandel",
@@ -1709,7 +1709,7 @@ var wines = [
     "winery": "Benessere",
     "region": "Napa",
     "address": "1010 Big Tree Road, St. Helena, CA 94574",
-    "location": "Benessere+Vineyards",
+    "location": "Benessere+Vineyards+California",
     "price": "$35.00",
     "label": {
       "name": "Holystone-Collins Zinfandel",
@@ -1729,7 +1729,7 @@ var wines = [
     "winery": "Baldacci Family Vineyards",
     "region": "Napa",
     "address": "6236 Silverado Trail, Napa, CA 94558",
-    "location": "Baldacci+Family+Vineyards",
+    "location": "Baldacci+Family+Vineyards+California",
     "price": "$38.00",
     "label": {
       "name": "Sorelle Chardonnay",
@@ -1749,7 +1749,7 @@ var wines = [
     "winery": "Baldacci Family Vineyards",
     "region": "Napa",
     "address": "6236 Silverado Trail, Napa, CA 94558",
-    "location": "Baldacci+Family+Vineyards",
+    "location": "Baldacci+Family+Vineyards+California",
     "price": "$75.00",
     "label": {
       "name": "Black Label Cabernet",
@@ -1769,7 +1769,7 @@ var wines = [
     "winery": "Baldacci Family Vineyards",
     "region": "Napa",
     "address": "6236 Silverado Trail, Napa, CA 94558",
-    "location": "Baldacci+Family+Vineyards",
+    "location": "Baldacci+Family+Vineyards+California",
     "price": "$40.00",
     "label": {
       "name": "Elizabeth Pinot Noir",
@@ -1789,7 +1789,7 @@ var wines = [
     "winery": "Black Stallion Winery",
     "region": "Napa",
     "address": "4089 Silverado Trail, Napa, CA 94558",
-    "location": "Black+Stallion+Winery",
+    "location": "Black+Stallion+Winery+California",
     "price": "$98.00",
     "label": {
       "name": "Reserve Cabernet Sauvignon",
@@ -1809,7 +1809,7 @@ var wines = [
     "winery": "Black Stallion Winery",
     "region": "Napa",
     "address": "4089 Silverado Trail, Napa, CA 94558",
-    "location": "Black+Stallion+Winery",
+    "location": "Black+Stallion+Winery+California",
     "price": "$28.00",
     "label": {
       "name": "Napa Valley Cabernet Sauvignon",
@@ -1829,7 +1829,7 @@ var wines = [
     "winery": "Black Stallion Winery",
     "region": "Napa",
     "address": "4089 Silverado Trail, Napa, CA 94558",
-    "location": "Black+Stallion+Winery",
+    "location": "Black+Stallion+Winery+California",
     "price": "$32.00",
     "label": {
       "name": "Napa Valley Chardonnay",
@@ -1849,7 +1849,7 @@ var wines = [
     "winery": "Black Stallion Winery",
     "region": "Napa",
     "address": "4089 Silverado Trail, Napa, CA 94558",
-    "location": "Black+Stallion+Winery",
+    "location": "Black+Stallion+Winery+California",
     "price": "$40.00",
     "label": {
       "name": "Napa Valley Merlot",
@@ -1869,7 +1869,7 @@ var wines = [
     "winery": "Black Stallion Winery",
     "region": "Napa",
     "address": "4089 Silverado Trail, Napa, CA 94558",
-    "location": "Black+Stallion+Winery",
+    "location": "Black+Stallion+Winery+California",
     "price": "$38.00",
     "label": {
       "name": "Napa Valley Syrah",
@@ -1889,7 +1889,7 @@ var wines = [
     "winery": "Black Stallion Winery",
     "region": "Napa",
     "address": "4089 Silverado Trail, Napa, CA 94558",
-    "location": "Black+Stallion+Winery",
+    "location": "Black+Stallion+Winery+California",
     "price": "$45.00",
     "label": {
       "name": "Howell Mountain Zinfandel",
@@ -1909,7 +1909,7 @@ var wines = [
     "winery": "Black Stallion Winery",
     "region": "Napa",
     "address": "4089 Silverado Trail, Napa, CA 94558",
-    "location": "Black+Stallion+Winery",
+    "location": "Black+Stallion+Winery+California",
     "price": "$22.00",
     "label": {
       "name": "Napa Valley Pinot Grigio",
@@ -1929,7 +1929,7 @@ var wines = [
     "winery": "Black Stallion Winery",
     "region": "Napa",
     "address": "4089 Silverado Trail, Napa, CA 94558",
-    "location": "",
+    "location": "+California",
     "price": "$22.00",
     "label": {
       "name": "Napa Valley Sauvignon Blanc",
@@ -1949,7 +1949,7 @@ var wines = [
     "winery": "Bravante Vineyards",
     "region": "Napa",
     "address": "300 Stone Ridge Road, Angwin CA 94508",
-    "location": "Bravante+Vineyards",
+    "location": "Bravante+Vineyards+California",
     "price": "$75.00",
     "label": {
       "name": "Estate Cabernet Sauvignon",
@@ -1969,7 +1969,7 @@ var wines = [
     "winery": "Bravante Vineyards",
     "region": "Napa",
     "address": "300 Stone Ridge Road, Angwin CA 94508",
-    "location": "Bravante+Vineyards",
+    "location": "Bravante+Vineyards+California",
     "price": "$60.00",
     "label": {
       "name": "Howell Mountain Merlot",
@@ -1989,7 +1989,7 @@ var wines = [
     "winery": "Bravante Vineyards",
     "region": "Napa",
     "address": "300 Stone Ridge Road, Angwin CA 94508",
-    "location": "Bravante+Vineyards",
+    "location": "Bravante+Vineyards+California",
     "price": "$35.00",
     "label": {
       "name": "Estate Sauvignon Blanc",
@@ -2009,7 +2009,7 @@ var wines = [
     "winery": "Bravante Vineyards",
     "region": "Napa",
     "address": "300 Stone Ridge Road, Angwin CA 94508",
-    "location": "Bravante+Vineyards",
+    "location": "Bravante+Vineyards+California",
     "price": "$25.00",
     "label": {
       "name": "Rose of Merlot",
@@ -2029,7 +2029,7 @@ var wines = [
     "winery": "Burgess Cellars",
     "region": "Napa",
     "address": "108 Deer Park Road, Deer Park CA 94576",
-    "location": "Burgess+Cellars",
+    "location": "Burgess+Cellars+California",
     "price": "$44.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -2049,7 +2049,7 @@ var wines = [
     "winery": "Burgess Cellars",
     "region": "Napa",
     "address": "108 Deer Park Road, Deer Park CA 94576",
-    "location": "Burgess+Cellars",
+    "location": "Burgess+Cellars+California",
     "price": "$29.00",
     "label": {
       "name": "Syrah",
@@ -2069,7 +2069,7 @@ var wines = [
     "winery": "Burgess Cellars",
     "region": "Napa",
     "address": "108 Deer Park Road, Deer Park CA 94576",
-    "location": "Burgess+Cellars",
+    "location": "Burgess+Cellars+California",
     "price": "$32.00",
     "label": {
       "name": "Merlot",
@@ -2089,7 +2089,7 @@ var wines = [
     "winery": "Castello di Amorosa",
     "region": "Napa",
     "address": "4045 St Helena Hwy, Calistoga CA 94515",
-    "location": "Castello+di+Amorosa",
+    "location": "Castello+di+Amorosa+California",
     "price": "$88.00",
     "label": {
       "name": "Reserve Cabernet Sauvignon",
@@ -2109,7 +2109,7 @@ var wines = [
     "winery": "Castello di Amorosa",
     "region": "Napa",
     "address": "4045 St Helena Hwy, Calistoga CA 94515",
-    "location": "Castello+di+Amorosa",
+    "location": "Castello+di+Amorosa+California",
     "price": "$36.00",
     "label": {
       "name": "Merlot Napa Valley",
@@ -2129,7 +2129,7 @@ var wines = [
     "winery": "Castello di Amorosa",
     "region": "Napa",
     "address": "4045 St Helena Hwy, Calistoga CA 94515",
-    "location": "Castello+di+Amorosa",
+    "location": "Castello+di+Amorosa+California",
     "price": "$36.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -2149,7 +2149,7 @@ var wines = [
     "winery": "Castello di Amorosa",
     "region": "Napa",
     "address": "4045 St Helena Hwy, Calistoga CA 94515",
-    "location": "Castello+di+Amorosa",
+    "location": "Castello+di+Amorosa+California",
     "price": "$30.00",
     "label": {
       "name": "Sangiovese",
@@ -2169,7 +2169,7 @@ var wines = [
     "winery": "Castello di Amorosa",
     "region": "Napa",
     "address": "4045 St Helena Hwy, Calistoga CA 94515",
-    "location": "Castello+di+Amorosa",
+    "location": "Castello+di+Amorosa+California",
     "price": "$29.00",
     "label": {
       "name": "Chardonnay Napa Valley",
@@ -2189,7 +2189,7 @@ var wines = [
     "winery": "Castello di Amorosa",
     "region": "Napa",
     "address": "4045 St Helena Hwy, Calistoga CA 94515",
-    "location": "Castello+di+Amorosa",
+    "location": "Castello+di+Amorosa+California",
     "price": "$29.00",
     "label": {
       "name": "Muscat Canelli",
@@ -2209,7 +2209,7 @@ var wines = [
     "winery": "Castello di Amorosa",
     "region": "Napa",
     "address": "4045 St Helena Hwy, Calistoga CA 94515",
-    "location": "Castello+di+Amorosa",
+    "location": "Castello+di+Amorosa+California",
     "price": "$29.00",
     "label": {
       "name": "Simpatica Riesling",
@@ -2229,7 +2229,7 @@ var wines = [
     "winery": "Chateau Montelena Winery",
     "region": "Napa",
     "address": "1429 Tubbs Lane, Calistoga CA 94515",
-    "location": "Chateau+Montelena+Winery",
+    "location": "Chateau+Montelena+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Petite Sirah",
@@ -2249,7 +2249,7 @@ var wines = [
     "winery": "Chateau Montelena Winery",
     "region": "Napa",
     "address": "1429 Tubbs Lane, Calistoga CA 94515",
-    "location": "Chateau+Montelena+Winery",
+    "location": "Chateau+Montelena+Winery+California",
     "price": "$39.00",
     "label": {
       "name": "Estate Zinfandel",
@@ -2269,7 +2269,7 @@ var wines = [
     "winery": "Chateau Montelena Winery",
     "region": "Napa",
     "address": "1429 Tubbs Lane, Calistoga CA 94515",
-    "location": "Chateau+Montelena+Winery",
+    "location": "Chateau+Montelena+Winery+California",
     "price": "$25.00",
     "label": {
       "name": "Potter Valley Riesling",
@@ -2289,7 +2289,7 @@ var wines = [
     "winery": "Chateau Montelena Winery",
     "region": "Napa",
     "address": "1429 Tubbs Lane, Calistoga CA 94515",
-    "location": "Chateau+Montelena+Winery",
+    "location": "Chateau+Montelena+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -2309,7 +2309,7 @@ var wines = [
     "winery": "Chateau Montelena Winery",
     "region": "Napa",
     "address": "1429 Tubbs Lane, Calistoga CA 94515",
-    "location": "Chateau+Montelena+Winery",
+    "location": "Chateau+Montelena+Winery+California",
     "price": "$26.50",
     "label": {
       "name": "Chardonnay",
@@ -2329,7 +2329,7 @@ var wines = [
     "winery": "Clos Du Val Winery",
     "region": "Napa",
     "address": "5330 Silverado Trail, Napa CA 94558",
-    "location": "Clos+Du+Val+Winery",
+    "location": "Clos+Du+Val+Winery+California",
     "price": "$38.50",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -2349,7 +2349,7 @@ var wines = [
     "winery": "Clos Du Val Winery",
     "region": "Napa",
     "address": "5330 Silverado Trail, Napa CA 94558",
-    "location": "Clos+Du+Val+Winery",
+    "location": "Clos+Du+Val+Winery+California",
     "price": "$32.00",
     "label": {
       "name": "Estate Pinot Noir",
@@ -2369,7 +2369,7 @@ var wines = [
     "winery": "Clos Du Val Winery",
     "region": "Napa",
     "address": "5330 Silverado Trail, Napa CA 94558",
-    "location": "Clos+Du+Val+Winery",
+    "location": "Clos+Du+Val+Winery+California",
     "price": "$38.50",
     "label": {
       "name": "Merlot",
@@ -2389,7 +2389,7 @@ var wines = [
     "winery": "Clos Du Val Winery",
     "region": "Napa",
     "address": "5330 Silverado Trail, Napa CA 94558",
-    "location": "Clos+Du+Val+Winery",
+    "location": "Clos+Du+Val+Winery+California",
     "price": "$24.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -2409,7 +2409,7 @@ var wines = [
     "winery": "Clos Du Val Winery",
     "region": "Napa",
     "address": "5330 Silverado Trail, Napa CA 94558",
-    "location": "Clos+Du+Val+Winery",
+    "location": "Clos+Du+Val+Winery+California",
     "price": "$24.00",
     "label": {
       "name": "Lone Cypress Ranch Merlot",
@@ -2429,7 +2429,7 @@ var wines = [
     "winery": "Clark-Claudon Vineyards",
     "region": "Napa",
     "address": "1155 Mee Lane at Highway 29, Rutherford CA 94573",
-    "location": "Clark-Claudon+Vineyards",
+    "location": "Clark-Claudon+Vineyards+California",
     "price": "$80.00",
     "label": {
       "name": "Estate Cabernet",
@@ -2449,7 +2449,7 @@ var wines = [
     "winery": "Clark-Claudon Vineyards",
     "region": "Napa",
     "address": "1155 Mee Lane at Highway 29, Rutherford CA 94573",
-    "location": "Clark-Claudon+Vineyards",
+    "location": "Clark-Claudon+Vineyards+California",
     "price": "$28.00",
     "label": {
       "name": "Wild Iris Sauvignon Blanc",
@@ -2469,7 +2469,7 @@ var wines = [
     "winery": "Clark-Claudon Vineyards",
     "region": "Napa",
     "address": "5350 Silverado Trail, Napa CA 94558",
-    "location": "Clark-Claudon+Vineyards",
+    "location": "Clark-Claudon+Vineyards+California",
     "price": "$81.00",
     "label": {
       "name": "Chimney Rock Cabernet Sauvignon",
@@ -2489,7 +2489,7 @@ var wines = [
     "winery": "Delectus Vineyard and Winery",
     "region": "Napa",
     "address": "578 Gateway Drive, Napa CA 94558",
-    "location": "578+Gateway+Drive+Napa+CA+94558",
+    "location": "578+Gateway+Drive+Napa+CA+94558+California",
     "price": "$58.00",
     "label": {
       "name": "Petite Sirah",
@@ -2509,7 +2509,7 @@ var wines = [
     "winery": "Delectus Vineyard and Winery",
     "region": "Napa",
     "address": "578 Gateway Drive, Napa CA 94558",
-    "location": "578+Gateway+Drive+Napa+CA+94558",
+    "location": "578+Gateway+Drive+Napa+CA+94558+California",
     "price": "$42.00",
     "label": {
       "name": "Syrah",
@@ -2529,7 +2529,7 @@ var wines = [
     "winery": "Dutch Henry Winery",
     "region": "Napa",
     "address": "4310 Silverado Trail, Calistoga CA 94515",
-    "location": "Dutch+Henry+Winery",
+    "location": "Dutch+Henry+Winery+California",
     "price": "$42.00",
     "label": {
       "name": "Rutherford Zinfandel",
@@ -2549,7 +2549,7 @@ var wines = [
     "winery": "Dutch Henry Winery",
     "region": "Napa",
     "address": "4310 Silverado Trail, Calistoga CA 94515",
-    "location": "Dutch+Henry+Winery",
+    "location": "Dutch+Henry+Winery+California",
     "price": "$50.00",
     "label": {
       "name": "Zinfandel",
@@ -2569,7 +2569,7 @@ var wines = [
     "winery": "Dutch Henry Winery",
     "region": "Napa",
     "address": "4310 Silverado Trail, Calistoga CA 94515",
-    "location": "Dutch+Henry+Winery",
+    "location": "Dutch+Henry+Winery+California",
     "price": "$48.00",
     "label": {
       "name": "Terrier Station Syrah",
@@ -2589,7 +2589,7 @@ var wines = [
     "winery": "Dutch Henry Winery",
     "region": "Napa",
     "address": "4310 Silverado Trail, Calistoga CA 94515",
-    "location": "Dutch+Henry+Winery",
+    "location": "Dutch+Henry+Winery+California",
     "price": "$50.00",
     "label": {
       "name": "Cabernet Franc",
@@ -2609,7 +2609,7 @@ var wines = [
     "winery": "Dutch Henry Winery",
     "region": "Napa",
     "address": "4310 Silverado Trail, Calistoga CA 94515",
-    "location": "Dutch+Henry+Winery",
+    "location": "Dutch+Henry+Winery+California",
     "price": "$52.00",
     "label": {
       "name": "Terrier Stations Cabernet",
@@ -2629,7 +2629,7 @@ var wines = [
     "winery": "Dutch Henry Winery",
     "region": "Napa",
     "address": "4310 Silverado Trail, Calistoga CA 94515",
-    "location": "Dutch+Henry+Winery",
+    "location": "Dutch+Henry+Winery+California",
     "price": "$48.00",
     "label": {
       "name": "Dutch Henry",
@@ -2649,7 +2649,7 @@ var wines = [
     "winery": "Duckhorn Vineyards",
     "region": "Napa",
     "address": "1000 Lodi Lane, St. Helena CA 94574",
-    "location": "Duckhorn+Vineyards",
+    "location": "Duckhorn+Vineyards+California",
     "price": "$54.00",
     "label": {
       "name": "Merlot",
@@ -2669,7 +2669,7 @@ var wines = [
     "winery": "Duckhorn Vineyards",
     "region": "Napa",
     "address": "1000 Lodi Lane, St. Helena CA 94574",
-    "location": "Duckhorn+Vineyards",
+    "location": "Duckhorn+Vineyards+California",
     "price": "$35.00",
     "label": {
       "name": "Chardonnay",
@@ -2689,7 +2689,7 @@ var wines = [
     "winery": "Duckhorn Vineyards",
     "region": "Napa",
     "address": "1000 Lodi Lane, St. Helena CA 94574",
-    "location": "Duckhorn+Vineyards",
+    "location": "Duckhorn+Vineyards+California",
     "price": "$35.00",
     "label": {
       "name": "Sauvage Sauvignon Blanc",
@@ -2709,7 +2709,7 @@ var wines = [
     "winery": "Duckhorn Vineyards",
     "region": "Napa",
     "address": "1000 Lodi Lane, St. Helena CA 94574",
-    "location": "Duckhorn+Vineyards",
+    "location": "Duckhorn+Vineyards+California",
     "price": "$95.00",
     "label": {
       "name": "Merlot Three Palms",
@@ -2729,7 +2729,7 @@ var wines = [
     "winery": "Duckhorn Vineyards",
     "region": "Napa",
     "address": "1000 Lodi Lane, St. Helena CA 94574",
-    "location": "Duckhorn+Vineyards",
+    "location": "Duckhorn+Vineyards+California",
     "price": "$29.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -2749,7 +2749,7 @@ var wines = [
     "winery": "Grgich Hills Estate",
     "region": "Napa",
     "address": "1829 St Helena Hwy, St. Helena CA 94574",
-    "location": "Grgich+Hills+Estate",
+    "location": "Grgich+Hills+Estate+California",
     "price": "$42.00",
     "label": {
       "name": "Chardonnay",
@@ -2769,7 +2769,7 @@ var wines = [
     "winery": "Grgich Hills Estate",
     "region": "Napa",
     "address": "1829 St Helena Hwy, St. Helena CA 94574",
-    "location": "Grgich+Hills+Estate",
+    "location": "Grgich+Hills+Estate+California",
     "price": "$35.00",
     "label": {
       "name": "Zinfandel",
@@ -2789,7 +2789,7 @@ var wines = [
     "winery": "Grgich Hills Estate",
     "region": "Napa",
     "address": "1829 St Helena Hwy, St. Helena CA 94574",
-    "location": "Grgich+Hills+Estate",
+    "location": "Grgich+Hills+Estate+California",
     "price": "$42.00",
     "label": {
       "name": "Merlot",
@@ -2809,7 +2809,7 @@ var wines = [
     "winery": "Grgich Hills Estate",
     "region": "Napa",
     "address": "1829 St Helena Hwy, St. Helena CA 94574",
-    "location": "Grgich+Hills+Estate",
+    "location": "Grgich+Hills+Estate+California",
     "price": "$40.00",
     "label": {
       "name": "Petite Sirah",
@@ -2829,7 +2829,7 @@ var wines = [
     "winery": "Franciscan Estate",
     "region": "Napa",
     "address": "1178 Galleron Road at Highway 29 St. Helena CA 94574",
-    "location": "Franciscan+Estate",
+    "location": "Franciscan+Estate+California",
     "price": "$28.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -2849,7 +2849,7 @@ var wines = [
     "winery": "Franciscan Estate",
     "region": "Napa",
     "address": "1178 Galleron Road at Highway 29 St. Helena CA 94574",
-    "location": "Franciscan+Estate",
+    "location": "Franciscan+Estate+California",
     "price": "$22.00",
     "label": {
       "name": "Merlot",
@@ -2869,7 +2869,7 @@ var wines = [
     "winery": "Franciscan Estate",
     "region": "Napa",
     "address": "1178 Galleron Road at Highway 29 St. Helena CA 94574",
-    "location": "Franciscan+Estate",
+    "location": "Franciscan+Estate+California",
     "price": "$17.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -2889,7 +2889,7 @@ var wines = [
     "winery": "Franciscan Estate",
     "region": "Napa",
     "address": "1178 Galleron Road at Highway 29 St. Helena CA 94574",
-    "location": "Franciscan+Estate",
+    "location": "Franciscan+Estate+California",
     "price": "$18.00",
     "label": {
       "name": "Chardonnay",
@@ -2909,7 +2909,7 @@ var wines = [
     "winery": "Howell Mountain Vineyards",
     "region": "Napa",
     "address": "150 Olive Avenue, Angwin CA 94508",
-    "location": "Howell+Mountain+Vineyards",
+    "location": "Howell+Mountain+Vineyards+California",
     "price": "$75.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -2929,7 +2929,7 @@ var wines = [
     "winery": "Howell Mountain Vineyards",
     "region": "Napa",
     "address": "150 Olive Avenue, Angwin CA 94508",
-    "location": "Howell+Mountain+Vineyards",
+    "location": "Howell+Mountain+Vineyards+California",
     "price": "$45.00",
     "label": {
       "name": "Zinfandel",
@@ -2949,7 +2949,7 @@ var wines = [
     "winery": "Jericho Canyon Vineyard",
     "region": "Napa",
     "address": "3322 Old Lawley Toll Rd. Calistoga CA 94515",
-    "location": "Jericho+Canyon+Vineyard",
+    "location": "Jericho+Canyon+Vineyard+California",
     "price": "$40.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -2969,7 +2969,7 @@ var wines = [
     "winery": "Jericho Canyon Vineyard",
     "region": "Napa",
     "address": "3322 Old Lawley Toll Rd. Calistoga CA 94515",
-    "location": "Jericho+Canyon+Vineyard",
+    "location": "Jericho+Canyon+Vineyard+California",
     "price": "$60.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -2989,7 +2989,7 @@ var wines = [
     "winery": "Judd's Hill Winery",
     "region": "Napa",
     "address": "2332 Silverado Trail, Napa CA 94558",
-    "location": "Judd's+Hill+Winery+California",
+    "location": "Judd's+Hill+Winery+California+California",
     "price": "$60.00",
     "label": {
       "name": "Estate Pinot Noir",
@@ -3009,7 +3009,7 @@ var wines = [
     "winery": "Judd's Hill Winery",
     "region": "Napa",
     "address": "2332 Silverado Trail, Napa CA 94558",
-    "location": "Judd's+Hill+Winery+California",
+    "location": "Judd's+Hill+Winery+California+California",
     "price": "$48.00",
     "label": {
       "name": "",
@@ -3029,7 +3029,7 @@ var wines = [
     "winery": "Judd's Hill Winery",
     "region": "Napa",
     "address": "2332 Silverado Trail, Napa CA 94558",
-    "location": "Judd's+Hill+Winery+California",
+    "location": "Judd's+Hill+Winery+California+California",
     "price": "$42.00",
     "label": {
       "name": "Syrah",
@@ -3049,7 +3049,7 @@ var wines = [
     "winery": "Judd's Hill Winery",
     "region": "Napa",
     "address": "2332 Silverado Trail, Napa CA 94558",
-    "location": "Judd's+Hill+Winery+California",
+    "location": "Judd's+Hill+Winery+California+California",
     "price": "$34.00",
     "label": {
       "name": "Petite Sirah, Old Vine",
@@ -3069,7 +3069,7 @@ var wines = [
     "winery": "Judd's Hill Winery",
     "region": "Napa",
     "address": "2332 Silverado Trail, Napa CA 94558",
-    "location": "Judd's+Hill+Winery+California",
+    "location": "Judd's+Hill+Winery+California+California",
     "price": "$26.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -3089,7 +3089,7 @@ var wines = [
     "winery": "Judd's Hill Winery",
     "region": "Napa",
     "address": "2332 Silverado Trail, Napa CA 94558",
-    "location": "Judd's+Hill+Winery+California",
+    "location": "Judd's+Hill+Winery+California+California",
     "price": "$65.00",
     "label": {
       "name": "Rutherford Cabernet Sauvignon",
@@ -3109,7 +3109,7 @@ var wines = [
     "winery": "Judd's Hill Winery",
     "region": "Napa",
     "address": "2332 Silverado Trail, Napa CA 94558",
-    "location": "Judd's+Hill+Winery+California",
+    "location": "Judd's+Hill+Winery+California+California",
     "price": "$40.00",
     "label": {
       "name": "Merlot",
@@ -3129,7 +3129,7 @@ var wines = [
     "winery": "Kenefick Ranch",
     "region": "Napa",
     "address": "2200 Pickett Road, Calistoga CA, 94515",
-    "location": "Kenefick+Ranch+Winery",
+    "location": "Kenefick+Ranch+Winery+California",
     "price": "$24.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -3149,7 +3149,7 @@ var wines = [
     "winery": "Kenefick Ranch",
     "region": "Napa",
     "address": "2200 Pickett Road, Calistoga CA, 94515",
-    "location": "Kenefick+Ranch+Winery",
+    "location": "Kenefick+Ranch+Winery+California",
     "price": "$45.00",
     "label": {
       "name": "Petite Sirah",
@@ -3169,7 +3169,7 @@ var wines = [
     "winery": "Kenefick Ranch",
     "region": "Napa",
     "address": "2200 Pickett Road, Calistoga CA, 94515",
-    "location": "Kenefick+Ranch+Winery",
+    "location": "Kenefick+Ranch+Winery+California",
     "price": "$50.00",
     "label": {
       "name": "Merlot",
@@ -3189,7 +3189,7 @@ var wines = [
     "winery": "William Hill Estate Winery",
     "region": "Napa",
     "address": "1761 Atlas Peak Road, Napa CA 94558",
-    "location": "William+Hill+Estate+Winery",
+    "location": "William+Hill+Estate+Winery+California",
     "price": "$25.00",
     "label": {
       "name": "Chardonnay",
@@ -3209,7 +3209,7 @@ var wines = [
     "winery": "William Hill Estate Winery",
     "region": "Napa",
     "address": "1761 Atlas Peak Road, Napa CA 94558",
-    "location": "William+Hill+Estate+Winery",
+    "location": "William+Hill+Estate+Winery+California",
     "price": "$30.00",
     "label": {
       "name": "Merlot",
@@ -3229,7 +3229,7 @@ var wines = [
     "winery": "William Hill Estate Winery",
     "region": "Napa",
     "address": "1761 Atlas Peak Road, Napa CA 94558",
-    "location": "William+Hill+Estate+Winery",
+    "location": "William+Hill+Estate+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -3249,7 +3249,7 @@ var wines = [
     "winery": "William Hill Estate Winery",
     "region": "Napa",
     "address": "1761 Atlas Peak Road, Napa CA 94558",
-    "location": "William+Hill+Estate+Winery",
+    "location": "William+Hill+Estate+Winery+California",
     "price": "$50.00",
     "label": {
       "name": "Merlot",
@@ -3269,7 +3269,7 @@ var wines = [
     "winery": "White Rock Vineyards",
     "region": "Napa",
     "address": "11115 Loma Vista Drive, Napa CA 94558",
-    "location": "White+Rock+Vineyards",
+    "location": "White+Rock+Vineyards+California",
     "price": "$52.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -3289,7 +3289,7 @@ var wines = [
     "winery": "White Rock Vineyards",
     "region": "Napa",
     "address": "11115 Loma Vista Drive, Napa CA 94558",
-    "location": "White+Rock+Vineyards",
+    "location": "White+Rock+Vineyards+California",
     "price": "$52.00",
     "label": {
       "name": "Chardonnay",
@@ -3309,7 +3309,7 @@ var wines = [
     "winery": "Tedeschi Family Winery",
     "region": "Napa",
     "address": "2779 Grant Street, Calistoga CA 94515",
-    "location": "Tedeschi+Family+Winery",
+    "location": "Tedeschi+Family+Winery+California",
     "price": "$45.00",
     "label": {
       "name": "Chardonnay",
@@ -3329,7 +3329,7 @@ var wines = [
     "winery": "Tedeschi Family Winery",
     "region": "Napa",
     "address": "2779 Grant Street, Calistoga CA 94515",
-    "location": "Tedeschi+Family+Winery",
+    "location": "Tedeschi+Family+Winery+California",
     "price": "$45.00",
     "label": {
       "name": "Pinot Noir",
@@ -3349,7 +3349,7 @@ var wines = [
     "winery": "Tedeschi Family Winery",
     "region": "Napa",
     "address": "2779 Grant Street, Calistoga CA 94515",
-    "location": "Tedeschi+Family+Winery",
+    "location": "Tedeschi+Family+Winery+California",
     "price": "$36.00",
     "label": {
       "name": "Petite Sirah",
@@ -3369,7 +3369,7 @@ var wines = [
     "winery": "Tedeschi Family Winery",
     "region": "Napa",
     "address": "2779 Grant Street, Calistoga CA 94515",
-    "location": "Tedeschi+Family+Winery",
+    "location": "Tedeschi+Family+Winery+California",
     "price": "$65.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -3389,7 +3389,7 @@ var wines = [
     "winery": "Tedeschi Family Winery",
     "region": "Napa",
     "address": "2779 Grant Street, Calistoga CA 94515",
-    "location": "Tedeschi+Family+Winery",
+    "location": "Tedeschi+Family+Winery+California",
     "price": "$40.00",
     "label": {
       "name": "Merlot",
@@ -3409,7 +3409,7 @@ var wines = [
     "winery": "Summit Lake Vineyards",
     "region": "Napa",
     "address": "2000 Summit Lake Dr, Angwin CA 94508",
-    "location": "Summit+Lake+Vineyards",
+    "location": "Summit+Lake+Vineyards+California",
     "price": "$60.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -3429,7 +3429,7 @@ var wines = [
     "winery": "Summit Lake Vineyards",
     "region": "Napa",
     "address": "2000 Summit Lake Dr, Angwin CA 94508",
-    "location": "Summit+Lake+Vineyards",
+    "location": "Summit+Lake+Vineyards+California",
     "price": "$60.00",
     "label": {
       "name": "Zinfandel",
@@ -3449,7 +3449,7 @@ var wines = [
     "winery": "St. Sup&eacute;ry",
     "region": "Napa",
     "address": "8440 St Helena Hwy, Rutherford CA 94573",
-    "location": "St.+Supéry+Estate+Vineyards",
+    "location": "St.+Supéry+Estate+Vineyards+California",
     "price": "$20.00",
     "label": {
       "name": "Estate Sauvignon Blanc",
@@ -3469,7 +3469,7 @@ var wines = [
     "winery": "St. Sup&eacute;ry",
     "region": "Napa",
     "address": "8440 St Helena Hwy, Rutherford CA 94573",
-    "location": "St.+Supéry+Estate+Vineyards",
+    "location": "St.+Supéry+Estate+Vineyards+California",
     "price": "$25.00",
     "label": {
       "name": "Estate Moscato",
@@ -3489,7 +3489,7 @@ var wines = [
     "winery": "St. Sup&eacute;ry",
     "region": "Napa",
     "address": "8440 St Helena Hwy, Rutherford CA 94573",
-    "location": "St.+Supéry+Estate+Vineyards",
+    "location": "St.+Supéry+Estate+Vineyards+California",
     "price": "$30.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -3509,7 +3509,7 @@ var wines = [
     "winery": "St. Sup&eacute;ry",
     "region": "Napa",
     "address": "8440 St Helena Hwy, Rutherford CA 94573",
-    "location": "St.+Supéry+Estate+Vineyards",
+    "location": "St.+Supéry+Estate+Vineyards+California",
     "price": "$35.00",
     "label": {
       "name": "Estate Chardonnay",
@@ -3529,7 +3529,7 @@ var wines = [
     "winery": "St. Clement Vineyards",
     "region": "Napa",
     "address": "2867 St. Helena Highway North, St. Helena CA 94574",
-    "location": "St.+Clement+Vineyards",
+    "location": "St.+Clement+Vineyards+California",
     "price": "$28.00",
     "label": {
       "name": "Merlot",
@@ -3549,7 +3549,7 @@ var wines = [
     "winery": "St. Clement Vineyards",
     "region": "Napa",
     "address": "2867 St. Helena Highway North, St. Helena CA 94574",
-    "location": "St.+Clement+Vineyards",
+    "location": "St.+Clement+Vineyards+California",
     "price": "$80.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -3569,7 +3569,7 @@ var wines = [
     "winery": "St. Clement Vineyards",
     "region": "Napa",
     "address": "2867 St. Helena Highway North, St. Helena CA 94574",
-    "location": "St.+Clement+Vineyards",
+    "location": "St.+Clement+Vineyards+California",
     "price": "$80.00",
     "label": {
       "name": "Chardonnay",
@@ -3589,7 +3589,7 @@ var wines = [
     "winery": "St. Clement Vineyards",
     "region": "Napa",
     "address": "2867 St. Helena Highway North, St. Helena CA 94574",
-    "location": "St.+Clement+Vineyards",
+    "location": "St.+Clement+Vineyards+California",
     "price": "$16.00",
     "label": {
       "name": "Sauvignon Blanc",
@@ -3609,7 +3609,7 @@ var wines = [
     "winery": "Spring Mountain Vineyard",
     "region": "Napa",
     "address": "22805 Spring Mountain Road, St. Helena CA 94574",
-    "location": "Spring+Mountain+Vineyard",
+    "location": "Spring+Mountain+Vineyard+California",
     "price": "$75.00",
     "label": {
       "name": "Estate Cabernet Sauvignon",
@@ -3629,7 +3629,7 @@ var wines = [
     "winery": "Spring Mountain Vineyard",
     "region": "Napa",
     "address": "22805 Spring Mountain Road, St. Helena CA 94574",
-    "location": "Spring+Mountain+Vineyard",
+    "location": "Spring+Mountain+Vineyard+California",
     "price": "$40.00",
     "label": {
       "name": "Estate Sauvignon Blanc",
@@ -3649,7 +3649,7 @@ var wines = [
     "winery": "Spring Mountain Vineyard",
     "region": "Napa",
     "address": "22805 Spring Mountain Road, St. Helena CA 94574",
-    "location": "pring+Mountain+Vineyard",
+    "location": "pring+Mountain+Vineyard+California",
     "price": "$55.00",
     "label": {
       "name": "Estate Syrah",
@@ -3669,7 +3669,7 @@ var wines = [
     "winery": "Spring Mountain Vineyard",
     "region": "Napa",
     "address": "22805 Spring Mountain Road, St. Helena CA 94574",
-    "location": "pring+Mountain+Vineyard",
+    "location": "pring+Mountain+Vineyard+California",
     "price": "$75.00",
     "label": {
       "name": "Estate Pinot Noir",
@@ -3689,7 +3689,7 @@ var wines = [
     "winery": "Sherwin Family Vineyards",
     "region": "Napa",
     "address": "4060 Spring Mountain Road, St. Helena CA 94574",
-    "location": "Sherwin+Family+Vineyards",
+    "location": "Sherwin+Family+Vineyards+California",
     "price": "$65.00",
     "label": {
       "name": "Estate Cabernet Sauvignon",
@@ -3709,7 +3709,7 @@ var wines = [
     "winery": "Sherwin Family Vineyards",
     "region": "Napa",
     "address": "4060 Spring Mountain Road, St. Helena CA 94574",
-    "location": "Sherwin+Family+Vineyards",
+    "location": "Sherwin+Family+Vineyards+California",
     "price": "$70.00",
     "label": {
       "name": "Syrah",
@@ -3729,7 +3729,7 @@ var wines = [
     "winery": "Sherwin Family Vineyards",
     "region": "Napa",
     "address": "4060 Spring Mountain Road, St. Helena CA 94574",
-    "location": "Sherwin+Family+Vineyards",
+    "location": "Sherwin+Family+Vineyards+California",
     "price": "$70.00",
     "label": {
       "name": "Chardonnay",
@@ -3749,7 +3749,7 @@ var wines = [
     "winery": "Robert Mondavi Winery",
     "region": "Napa",
     "address": "7801 St. Helena Hwy 29, Oakville CA 94562",
-    "location": "Robert+Mondavi+Winery",
+    "location": "Robert+Mondavi+Winery+California",
     "price": "$20.00",
     "label": {
       "name": "Chardonnay",
@@ -3769,7 +3769,7 @@ var wines = [
     "winery": "Robert Mondavi Winery",
     "region": "Napa",
     "address": "7801 St. Helena Hwy 29, Oakville CA 94562",
-    "location": "Robert+Mondavi+Winery",
+    "location": "Robert+Mondavi+Winery+California",
     "price": "$25.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -3789,7 +3789,7 @@ var wines = [
     "winery": "Robert Mondavi Winery",
     "region": "Napa",
     "address": "7801 St. Helena Hwy 29, Oakville CA 94562",
-    "location": "Robert+Mondavi+Winery",
+    "location": "Robert+Mondavi+Winery+California",
     "price": "$27.00",
     "label": {
       "name": "Cabernet Sauvignon",
@@ -3809,7 +3809,7 @@ var wines = [
     "winery": "Robert Mondavi Winery",
     "region": "Napa",
     "address": "7801 St. Helena Hwy 29, Oakville CA 94562",
-    "location": "Robert+Mondavi+Winery",
+    "location": "Robert+Mondavi+Winery+California",
     "price": "$23.00",
     "label": {
       "name": "Merlot",
@@ -3829,7 +3829,7 @@ var wines = [
     "winery": "Rutherford Grove Winery",
     "region": "Napa",
     "address": "1673 Hwy. 29, Rutherford CA 94573",
-    "location": "Rutherford+Grove+Winery",
+    "location": "Rutherford+Grove+Winery+California",
     "price": "$60.00",
     "label": {
       "name": "Pestoni Reserve Merlot",
@@ -3849,7 +3849,7 @@ var wines = [
     "winery": "Rutherford Grove Winery",
     "region": "Napa",
     "address": "1673 Hwy. 29, Rutherford CA 94573",
-    "location": "Rutherford+Grove+Winery",
+    "location": "Rutherford+Grove+Winery+California",
     "price": "$55.00",
     "label": {
       "name": "Estate Cabernet Sauvignon",
@@ -3869,7 +3869,7 @@ var wines = [
     "winery": "Rutherford Grove Winery",
     "region": "Napa",
     "address": "1673 Hwy. 29, Rutherford CA 94573",
-    "location": "Rutherford+Grove+Winery",
+    "location": "Rutherford+Grove+Winery+California",
     "price": "$45.00",
     "label": {
       "name": "Estate Merlot",
@@ -3889,7 +3889,7 @@ var wines = [
     "winery": "Rutherford Grove Winery",
     "region": "Napa",
     "address": "1673 Hwy. 29, Rutherford CA 94573",
-    "location": "Rutherford+Grove+Winery",
+    "location": "Rutherford+Grove+Winery+California",
     "price": "$40.00",
     "label": {
       "name": "Estate Sangiovese",
@@ -3909,7 +3909,7 @@ var wines = [
     "winery": "Rutherford Grove Winery",
     "region": "Napa",
     "address": "1673 Hwy. 29, Rutherford CA 94573",
-    "location": "Rutherford+Grove+Winery",
+    "location": "Rutherford+Grove+Winery+California",
     "price": "$37.00",
     "label": {
       "name": "Petite Sirah",
@@ -3929,7 +3929,7 @@ var wines = [
     "winery": "Rutherford Grove Winery",
     "region": "Napa",
     "address": "1673 Hwy. 29, Rutherford CA 94573",
-    "location": "Rutherford+Grove+Winery",
+    "location": "Rutherford+Grove+Winery+California",
     "price": "$18.00",
     "label": {
       "name": "Zinfandel",
@@ -3949,7 +3949,7 @@ var wines = [
     "winery": "Rutherford Hill Winery",
     "region": "Napa",
     "address": "200 Rutherford Hill Road, Rutherford CA 94573",
-    "location": "Rutherford+Grove+Winery",
+    "location": "Rutherford+Grove+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Zinfandel",
@@ -3969,7 +3969,7 @@ var wines = [
     "winery": "Rutherford Hill Winery",
     "region": "Napa",
     "address": "200 Rutherford Hill Road, Rutherford CA 94573",
-    "location": "Rutherford+Grove+Winery",
+    "location": "Rutherford+Grove+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Sangiovese",
@@ -3989,7 +3989,7 @@ var wines = [
     "winery": "Rutherford Hill Winery",
     "region": "Napa",
     "address": "200 Rutherford Hill Road, Rutherford CA 94573",
-    "location": "Rutherford+Grove+Winery",
+    "location": "Rutherford+Grove+Winery+California",
     "price": "$35.00",
     "label": {
       "name": "Atlas Peak Merlot",
@@ -4009,7 +4009,7 @@ var wines = [
     "winery": "Monticello Vineyards",
     "region": "Napa",
     "address": "4242 Big Ranch Road, Napa CA 94558",
-    "location": "Monticello+Vineyards",
+    "location": "Monticello+Vineyards+California",
     "price": "$24.00",
     "label": {
       "name": "Rose of Syrah",
@@ -4029,7 +4029,7 @@ var wines = [
     "winery": "Monticello Vineyards",
     "region": "Napa",
     "address": "4242 Big Ranch Road, Napa CA 94558",
-    "location": "Monticello+Vineyards",
+    "location": "Monticello+Vineyards+California",
     "price": "$38.00",
     "label": {
       "name": "Estate Grown Pinot Noir",
@@ -4049,7 +4049,7 @@ var wines = [
     "winery": "Monticello Vineyards",
     "region": "Napa",
     "address": "4242 Big Ranch Road, Napa CA 94558",
-    "location": "Monticello+Vineyards",
+    "location": "Monticello+Vineyards+California",
     "price": "$35.00",
     "label": {
       "name": "Estate Grown Merlot",
@@ -4069,7 +4069,7 @@ var wines = [
     "winery": "Monticello Vineyards",
     "region": "Napa",
     "address": "4242 Big Ranch Road, Napa CA 94558",
-    "location": "Monticello+Vineyards",
+    "location": "Monticello+Vineyards+California",
     "price": "$72.00",
     "label": {
       "name": "Estate Grown Chardonnay",
